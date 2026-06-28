@@ -226,9 +226,6 @@ If you use this tool in your research, please cite:
 A Multi-Stage Inverse Integral Method for Deriving Ignition Delay Correlation from Autoignition Experimental Measurements
 Yingtao Wu*, Zhonghao Zhao, Yuxin Fang, Pengzhi Wang, Song Cheng, Chenglong Tang*, Zuohua Huang, Henry Curran
 Combustion and Flame
-```
-IDT Simulation Tool, https://github.com/yingtaow/IDT_simu
-```
 
 ## License
 
