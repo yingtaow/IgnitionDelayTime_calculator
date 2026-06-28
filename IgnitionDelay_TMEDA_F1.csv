@@ -1,0 +1,2 @@
+fuels,phi,dilution,Temperature,Pressure/bar,IDT_total/ms,IDT_1st/ms,WeakIDT/ms,fuel_molarfraction,oxidant_molarfraction,diluent_molarfraction
+TMEDA,1.0,3.9,500.0,10.0,78.51448533574795,68.59719294782359,68.44657063080952,0.019999999999999997,0.19999999999999998,0.78

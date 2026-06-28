@@ -1,0 +1,43 @@
+# Input parameter configuration file
+
+# Fuel mixture configuration
+fuel_mixtures:
+  #- TMEDA: 1.0
+  - CH3NO2: 1.0
+  #- C2H6: 1.0
+  #- C3H6: 1.0
+  #- C3H8: 1.0
+  #- C4H10: 1.0
+  #- NC5H12: 1.0
+  #- NC6H14: 1.0
+  #- NC7H16: 1.0
+  #- N(CH3)2CH3: 1.0
+# - NC7H16: 0.10
+
+# Minimum temperature rise threshold (K)
+T_thread: 200.0
+
+# Minimum saved time step (milliseconds)
+min_time_step_ms: 0.05
+
+# Input parameter ranges
+i_parameters:
+  phi_range: [0.5, 2.0]      # Equivalence ratio range
+  dilution_range: [3.76, 3.76]      # Dilution ratio range
+  T_range: [650, 1000]       # Temperature range (K)
+  P_range: [10.0, 10.0]           # Pressure range (Bar)
+  idt_range: [0.02, 500.0]   # IDT range (milliseconds)
+
+# Number of samples
+n_samples: 20
+
+# Oxidizer composition
+oxidant: "O2:1.0"
+# Diluent gas composition
+diluent: "N2:1.0"
+
+# Chemical reaction mechanism file
+mechanism_file: "CH3NO2.yaml"
+
+# Output file name
+output_file: "IgnitionDelay_CH3NO2_F1.csv"
